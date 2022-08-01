@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>12&24HOURS FOREXTRADING</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>WyckyFX</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">WyckyFX</h6>
+                        <span>Admin</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="About US.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>About US</a>
+                    <a href="Investors.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Investors</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="signin.html" class="dropdown-item">Sign In</a>
+                            <a href="signup.html" class="dropdown-item">Sign Up</a>
+                       </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4">
+                    <input class="form-control bg-dark border-0" type="search" placeholder="Search">
+                </form>
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-envelope me-lg-2"></i>
+                            <span class="d-none d-lg-inline-flex">Message</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle" src="img/jeniffer.jfif" alt="" style="width: 40px; height: 40px;">
+                                    <div class="ms-2">
+                                        <h6 class="fw-normal mb-0">Jeniffer sent you a message</h6>
+                                        <small>3 minutes ago</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle" src="img/antony.jfif" alt="" style="width: 40px; height: 40px;">
+                                    <div class="ms-2">
+                                        <h6 class="fw-normal mb-0">Antony sent you a message</h6>
+                                        <small>7 minutes ago</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle" src="img/judy.jfif" alt="" style="width: 40px; height: 40px;">
+                                    <div class="ms-2">
+                                        <h6 class="fw-normal mb-0">Judy sent you a message</h6>
+                                        <small>12 minutes ago</small>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item text-center">See all message</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-bell me-lg-2"></i>
+                            <span class="d-none d-lg-inline-flex">Notificatin</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href="#" class="dropdown-item">
+                                <h6 class="fw-normal mb-0">New user invested</h6>
+                                <small>1 minutes ago</small>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item">
+                                <h6 class="fw-normal mb-0">Payment disbursed to 17 investors</h6>
+                                <small>9 minutes ago</small>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item">
+                                <h6 class="fw-normal mb-0">New users invested</h6>
+                                <small>27 minutes ago</small>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">WyckyFX</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href="#" class="dropdown-item">My Profile</a>
+                            <a href="#" class="dropdown-item">Settings</a>
+                            <a href="#" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+
+            <!-- Sale & Revenue Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-line fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Today profit from trading</p>
+                                <h6 class="mb-0">$17,234</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Total equity balance</p>
+                                <h6 class="mb-0">$57,034</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-area fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Today Payment to investors</p>
+                                <h6 class="mb-0">$8,234</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Profit margin every 24hours</p>
+                                <h6 class="mb-0">67%</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sale & Revenue End -->
+
+
+            <!-- Sales Chart Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-secondary text-center rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Worldwide investment graph</h6>
+                           </div>
+                            <canvas id="worldwide-sales"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-secondary text-center rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Profit margin</h6>
+                            </div>
+                            <canvas id="salse-revenue"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sales Chart End -->
+
+
+            <!-- Recent Sales Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Investment Plan</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">Duration</th>
+                                    <th scope="col">Amount Invested</th>
+                                    <th scope="col">Pay Out/Profit</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>24hrs</td>
+                                    <td>$30</td>
+                                    <td>$120</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>24hrs</td>
+                                    <td>$40</td>
+                                    <td>$140</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>24hrs</td>
+                                    <td>$50</td>
+                                    <td>$180</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>24hrs</td>
+                                    <td>$100</td>
+                                    <td>$250</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>24hrs</td>
+                                    <td>Above $100</td>
+                                    <td>$***</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <h6 class="mb-0">Currently Paid</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Amount invested</th>
+                                    <th scope="col">Customer's Name</th>
+                                    <th scope="col">Profit</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Duration</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>31st july 2022</td>
+                                    <td>$30</td>
+                                    <td>Vivian</td>
+                                    <td>$120</td>
+                                    <td>12 hours</td>
+                                    <td>Pending</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Withdraw</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>31st july 2022</td>
+                                    <td>$30</td>
+                                    <td>Nehemiah</td>
+                                    <td>$240</td>
+                                    <td>32 hours</td>
+                                    <td>Pending</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Withdraw</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>31st july 2022</td>
+                                    <td>$80</td>
+                                    <td>Agustine</td>
+                                    <td>$220</td>
+                                    <td>24 hours</td>
+                                    <td>Pending</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Withdraw</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>31st july 2022</td>
+                                    <td>$180</td>
+                                    <td>Alex</td>
+                                    <td>$423</td>
+                                    <td>48 hours</td>
+                                    <td>Pending</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Withdraw</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>31st july 2022</td>
+                                    <td>$32</td>
+                                    <td>Erick</td>
+                                    <td>$123</td>
+                                    <td>12 hours</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Withdrawn</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>31st july 2022</td>
+                                    <td>$200</td>
+                                    <td>Wayner</td>
+                                    <td>$454</td>
+                                    <td>12 hours</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Withdrawn</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                </div>
+            </div>
+            <!-- Recent Sales End -->
+
+
+            <!-- Widgets Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <h6 class="mb-0">Messages</h6>
+                            </div>
+                            <div class="d-flex align-items-center border-bottom py-3">
+                                <img class="rounded-circle flex-shrink-0" src="img/Matthew.jfif" alt="" style="width: 40px; height: 40px;">
+                                <div class="w-100 ms-3">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-0">Matthew</h6>
+                                        <small>9 minutes ago</small>
+                                    </div>
+                                    <span>I am very happy i invested with you...</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center border-bottom py-3">
+                                <img class="rounded-circle flex-shrink-0" src="img/Cynthia.jfif" alt="" style="width: 40px; height: 40px;">
+                                <div class="w-100 ms-3">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-0">Cynthia</h6>
+                                        <small>11 minutes ago</small>
+                                    </div>
+                                    <span>I received my profit of $345, God bless you...</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center border-bottom py-3">
+                                <img class="rounded-circle flex-shrink-0" src="img/Kingston.jfif" alt="" style="width: 40px; height: 40px;">
+                                <div class="w-100 ms-3">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-0">Kingston</h6>
+                                        <small>17 minutes ago</small>
+                                    </div>
+                                    <span>Your platform is legit, NO scam my family must invest...</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center pt-3">
+                                <img class="rounded-circle flex-shrink-0" src="img/MaryAnne.jfif" alt="" style="width: 40px; height: 40px;">
+                                <div class="w-100 ms-3">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-0">MaryAnne</h6>
+                                        <small>18 minutes ago</small>
+                                    </div>
+                                    <span>With you company i can pay my bills, i just received yesterday's $234 profit...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Calender</h6>
+                            </div>
+                            <div id="calender"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-8">
+                                <h6 class="mb-4">Testimonial</h6>
+                            </div>
+                            <div class="owl-carousel testimonial-carousel">
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Madison</h5>
+                                    <p>Gym instructor</p>
+                                    <p class="mb-0">I am greatful of this platform, it helped me open my own GYM.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Silvyah.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Silvyah</h5>
+                                    <p>Farmer</p>
+                                    <p class="mb-0">I thought it was scam until i got paid.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Jecinta.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Jecinta</h5>
+                                    <p>Saloonist</p>
+                                    <p class="mb-0">Through this platform i was able to buy new salon equipement and expand my bussiness.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Matthew.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Matthew</h5>
+                                    <p>Movie Director</p>
+                                    <p class="mb-0">I earned $4600 in 2 weeks, i recommend others to invest heavy.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Kingston.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Kingston</h5>
+                                    <p>Nurse</p>
+                                    <p class="mb-0">I earn $213 every 24 hours. I love the minds that brought this to existence.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Yusuf</h5>
+                                    <p>Driver</p>
+                                    <p class="mb-0">Invest Invest. Bought my Taxi from my profit in this company.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/MaryAnne.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">MaryAnne</h5>
+                                    <p>Record Officer</p>
+                                    <p class="mb-0">I love you WyckyFX, where you are be blessed.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/Cynthia.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">Cynthia</h5>
+                                    <p>Chemists</p>
+                                    <p class="mb-0">God bless you Abudantly. I urge people to invest, NOT SCUM.</p>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                    <img class="img-fluid rounded-circle mx-auto mb-4" src="img/George.jfif" style="width: 100px; height: 100px;">
+                                    <h5 class="mb-1">George</h5>
+                                    <p>Student</p>
+                                    <p class="mb-0">Everyday is a new day when i see you have received $267 from this company.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                    
+            <!-- Widgets End -->
+
+
+            <!-- Footer Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <P>At 12&24HOURS FOREXTRADING, we believe there is no better advertisement than satisfied clients. 
+                        No wonder that majority of our new clients are affiliates from our existing clients. 
+                        We are proud that our clients like to recommend our financial service to others.
+                    </P> 
+                    <p>Because of this, we are pleased to offer one of the strongest online affiliate programs in the financial service industry, 
+                        with a high commission rate, customized tools and reports, and timely commission payouts.
+                    </p>
+                    <p>
+                        12&24HOURS FOREXTRADING is paying for the popularization of its investment program and anyone can be rewarded. 
+                        To benefit from this, you have to tell your friends, relatives or colleagues about our company. 
+                        We offer 3 level referral commissions: 
+                        The first level of direct referrals from you will entitle you to a commission of 4%, and 
+                        second level gives you commission of 0.5% and third level is 0.5%.
+                    </p>
+                    <p>
+                        You can surely make a lot of money from the referral commissions you get!
+                    </P>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                            &copy; <a href="#">12&24HOURS FOREXTRADING</a> 
+                            All Right Reserved. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
